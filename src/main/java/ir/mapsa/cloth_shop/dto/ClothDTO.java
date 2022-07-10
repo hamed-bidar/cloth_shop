@@ -14,7 +14,7 @@ import java.util.List;
 @NoArgsConstructor
 public class ClothDTO {
 
-    private Integer id;
+    private Integer clothId;
     @NotNull
     @NotBlank
     //@Min

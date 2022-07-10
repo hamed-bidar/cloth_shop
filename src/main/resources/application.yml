@@ -6,3 +6,9 @@ spring:
     url: jdbc:postgresql://localhost:5432/clothes_shop1
     username: postgres
     password: 123
+
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+    database: POSTGRESQL
+    hibernate:
+      ddl-auto: update
